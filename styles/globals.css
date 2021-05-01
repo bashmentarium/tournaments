@@ -14,3 +14,46 @@ a {
 * {
   box-sizing: border-box;
 }
+
+.input-wrapper {
+  display: flex;
+  flex-direction: column;
+  max-width: 200px;
+  margin: 5px auto;
+}
+
+.form {
+  display: flex;
+  flex-direction: column;
+}
+
+.save-button {
+  padding: 10px 20px;
+  background-color: green;
+  color: white;
+  font-family: Tahoma;
+  margin: 10px auto
+}
+
+.table-wrapper {
+  width: 50%;
+  margin: 10px auto;
+}
+
+.heading {
+  margin: 20px auto;
+}
+
+.table-row, .table-row-headings {
+  display: grid;
+  grid-template-columns: 1fr 1fr 1fr;
+}
+
+.table-row-headings {
+  background-color: lightgray;
+}
+
+.nickname, .contestants, .rank {
+  border: 1px solid black;
+  padding: 10px 20px;
+}
